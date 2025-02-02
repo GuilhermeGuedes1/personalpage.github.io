@@ -12,24 +12,28 @@
     <header>
         <nav>
             <a href="index.html" target="_self" rel="Home">Home</a>
-            <a href="https://www.instagram.com/djchrisroc/" target="_blank" rel="external">Instagram</a>
-            <a href="https://www.youtube.com/@CHR1SROC_" target="_blank" rel="external">Youtube</a>
-            <a href="https://soundcloud.com/chrisroc" target="_blank" rel="external">Soundcloud</a>
+            <a href="#bioSection" target="_self" rel="section">Bio</a>
+            <a href="#djsets" target="_self" rel="internal">Dj Set</a>
+            <a href="#imprensa" target="_self" rel="internal">Imprensa</a>
+            <a href="#instagram" target="_self" rel="internal">Instagram</a>
+            <a href="#fotos" target="_self" rel="internal">Fotos</a>
         </nav>
     </header>
 
     <main>
-        <section class="bio">
+        <section class="bio" id="bioSection">
             <article>
-                <h1>Dj Chris roc</h1>
-                <h2>
-                    O show business escolheu um artista que não havia escolhido a música como sua carreira principal.
-                </h2>
 
                 <picture>
+                    <source media="(max-width:647px)" srcset="/images/logo2-pq.png">
+
+                    <img class="logo2" src="/images/logo2-pq.png" alt="Logo Chris Roc">
+                </picture>
+
+                <picture class="foto">
                     <source media="(max-width:647px)" srcset="/images/foto-oculos-pq.jpg">
 
-                    <img src="images/foto-oculos.jpg" alt="Foto tocando">
+                    <img class="foto" src="images/foto-oculos.jpg" alt="Foto tocando">
                 </picture>
                 
                 <p class="credito">Foto por <STRONG>Gabriel Santos(GB)</STRONG></p>
@@ -59,16 +63,26 @@
                     No mundo digital, o Dj Chris vem se descobrindo aos poucos, sempre compartilhando sua rotina de viagens com a banda, assim como treinos, experimentações e diversos sets no YouTube.
                     Parceiro de marcas urbanas, que possuem música como DNA, Dj Chris Roc vê a criação de conteúdo como um pilar crucial para humanizar a interface entre as marcas e seus consumidores por meio da música. Ele ja colaborou com marcas como <strong><a href="https://www.kenner.com.br/?srsltid=AfmBOopgKB2CnGGNaM8YmaLgvYpb7Uw3CNLig_CvOENYIvuN-JHBKv1I" target="_blank" rel="external">Kenner</a></strong> e <strong><a href="https://www.instagram.com/pormenor.co/" target="_blank" rel="external">Por Menor</a></strong>, mas hoje sua relação principal é com a  <a href="https://kuba.audio/" target="_blank" rel="external"><strong>Kuba Audio</strong></a> em projetos que refletem seu estilo urbano.
                 </p>
+            </article>  
+        </section>
+        <section id="djsets">
+            <article>
+                <h1>DJ SETS</h1>
+                <div class="soundcloud">
 
-                <picture>
-                    <source media="(max-width:647px)" srcset="images/feed-youtube-pq.png">
-                    <img src="images/feed-youtube.png" alt="Foto youtube">
-                </picture>
-                <p class="credito"><STRONG><a href="https://www.youtube.com/@CHR1SROC_/videos" target="_blank" rel="external">Youtube Chanel</a></STRONG></p>
-            </article>    
+                    <iframe width="100%" height="450" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1713623391&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/chrisroc" title="CHRIS ROC" target="_blank" style="color: #cccccc; text-decoration: none;">CHRIS ROC</a> · <a href="https://soundcloud.com/chrisroc/rocsession1" title="ROC SESSION #1 | CHR1S ROC_ (Brazilian Trap, Rap)" target="_blank" style="color: #cccccc; text-decoration: none;">ROC SESSION #1 | CHR1S ROC_ (Brazilian Trap, Rap)</a></div>
+
+                    <iframe width="100%" height="450" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1939021424&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/chrisroc" title="CHRIS ROC" target="_blank" style="color: #cccccc; text-decoration: none;">CHRIS ROC</a> · <a href="https://soundcloud.com/chrisroc/so-nao-pode-chorar-mas-se-quiser-pode-vol2" title="Só Não Pode Chorar, Mas Se Quiser Pode. Vol2" target="_blank" style="color: #cccccc; text-decoration: none;">Só Não Pode Chorar, Mas Se Quiser Pode. Vol2</a></div>
+
+
+                    <iframe width="100%" height="315" src="https://www.youtube.com/embed/vJ5YfODI284?si=vv4Oq36Zv15Pjuz4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    
+                </div>
+
+            </article>
         </section>
 
-        <section class="imprensa">
+        <section class="imprensa" id="imprensa">
             <article>
                 <h1>Imprensa</h1>
                 <picture>
@@ -82,7 +96,7 @@
             </article>
         </section>
 
-        <section class="instagram">
+        <section class="instagram" id="instagram">
             <article>
                 <h1>Instagram</a></h1>
                 <picture>
@@ -91,11 +105,11 @@
                     <img src="images/foto-instagram.png" alt="photo's feed instagram">
                 </picture>
                 
-                <p class="credito"><STRONG><a href=https://www.instagram.com/djchrisroc/ target="_blank" rel="external">Follow me on instagram @djchrisroc</a></STRONG></p>
+                <p class="credito"><STRONG>Follow me on instagram <a class="instapage" href=https://www.instagram.com/djchrisroc/ target="_blank" rel="external">@djchrisroc</a></STRONG></p>
             </article>
         </section>
 
-        <section>
+        <section id="fotos">
             <article>
                 <h1>Fotos</h1>
                 <picture>
@@ -106,6 +120,7 @@
                    <a href="images/foto-feed-5.jpg" target="_blank" rel="external"><img src="images/foto-feed-5.jpg" alt="Foto olhando para frente"></a>
 
                    <a href="images/foto-feed-4.jpg" target="_blank" rel="external"><img src="images/foto-feed-4.jpg" alt=""></a>
+                </picture>
             </article>
         </section>
 
