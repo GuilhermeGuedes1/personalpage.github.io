@@ -1,30 +1,25 @@
-Chris Roc - Landing Page
+# Chris Roc - Landing Page  
 
-Link do Projeto: https://guilhermeguedes1.github.io/personalpage.github.io/
+🔗 **Project Link: https://guilhermeguedes1.github.io/personalpage.github.io/  
 
-"Página pessoal criada por mim baseada nos conhecimentos adquiridos nos Módulos 1, 2 e 3 do curso de HTML e CSS de Gustavo Guanabara."
+## 📌 About the Project  
+This is a personal page I created based on the knowledge gained from Modules 1, 2, and 3 of Gustavo Guanabara’s HTML and CSS course. This is my first project using only HTML and CSS for practice. Over time, I will update it with new skills I acquire. I’m open to suggestions and feedback!  
 
-🔥 Atualizações Recentes
+## 🔥 Recent Updates (02/04/2025)  
 
-🧭 Melhoria na navegação adicionando links diretos no menu para seções do site.
+- 🎨 **Background Added:** New background to enhance the page's visual appeal.  
+- 🧭 **Navigation Links Updated:** `nav-links` renamed to `nav-list-links` for better structure.  
+- 🎧 **YouTube Set Links Embedded:** YouTube sets are now directly embedded in the `iframe`.  
+- 🖥️ **Code Cleanup:** Removed unnecessary elements for better efficiency.  
+- 📏 **Increased Clickable Area for Links:** Improved usability.  
+- 🔤 **Font Change:** New font for better readability and aesthetics.  
+- 📱 **Mobile Responsiveness Adjustments:** Improved display on mobile devices.  
 
-🎨 Nova cor de fundo para uma ambientação mais envolvente.
+## 🚀 Upcoming Improvements  
 
-🎧 Incorporação de dois sets do SoundCloud para facilitar a audição.
+- 🔧 Further site customization with new sections and design tweaks.  
+- 🏗️ Continued code optimization.  
 
-📺 Adição de um vídeo do YouTube diretamente na página.
+---
 
-🖥️ Otimização do código, reduzindo linhas desnecessárias.
-
-🌟 Melhoria na ambientação geral para uma experiência mais fluida.
-
-📌 Próximas Melhorias
-
-O projeto ainda está em desenvolvimento, e as próximas atualizações terão foco nas seguintes tarefas:
-Personalização do site 
-Melhoria do código
-
-
-🎵 Primeiro Projeto
-
-"Este é meu primeiro projeto utilizando apenas HTML e CSS para prática. Com o tempo, irei atualizá-lo com os conhecimentos adquiridos. Estou aberto a sugestões e dicas!"
+Feel free to share any suggestions or feedback!  
