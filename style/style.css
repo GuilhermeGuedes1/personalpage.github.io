@@ -2,8 +2,13 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
 html {
     scroll-behavior: smooth;
+    background-image: url(/images/backgrounds/sep09.jpg);
+    background-size: cover;
+    
 }
 
 
@@ -16,23 +21,17 @@ html {
 :root {
     --cor1: #f3f3f4;
     --cor2: #b3001b;
-    --cor3: #f0a202;
+    --cor3: #f0a1028c;
     --cor4: #353535;
     --cor5: #848c8e;
 
-    --font1: "Bebas Neue", "serif";
-    --font2: "Montserrat", serif;
-    --font3: "Roboto Condensed", serif;
-    --font4: "Anton", serif;
+    --font-tittle: "Oswald", serif;
+    --font-tittle-2: "Anton", serif;
+    --font-p-1: "Roboto Condensed", serif;
+    --font-p-2: "Inter", serif;
 
 }
 
-
-
-body { 
-    background-color: #000000;
-    
-}
 
 header {
    background-color: rgba(251, 251, 251, 0.973);
@@ -40,42 +39,22 @@ header {
     
 }
 
-header h1 {
-    text-align: left;
-    padding: 8px;
-    font-size: 18px;
-    font-family: var(--font4);
+ul { 
+    display: flex;   
+    justify-content: left;
+    list-style: none;
+}
+
+ul a { 
     color: black;
-}
-
-
-h2 {
-    font-size: 18px;
-    text-align: center;
-    padding: 2px;
-    margin-bottom: 1em;
-    font-weight: 200;
-    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.212);
-}
-
-nav { 
-    
-    display: inline-flex;
-}
-
-nav a {
     text-decoration: none;
-    color: var(--cor4);
-    font-family: var(--font1);
-    font-size: 16px;
-    padding: 0px 8px;
-    text-align: left;
-    margin-left: 20px;
-
+    padding: 20px 12px;
+    text-shadow: 1px 1px 1px 0px black;  
+    font-size:1em;  
 }
 
 nav a:hover {
-    background-color: #35353565;
+    background-color: rgba(119, 136, 153, 0.247);
     border-radius: 3px;
     transition-duration: 0.5s;
 }
@@ -89,26 +68,98 @@ main {
     box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.233);
 }
 
+#photo-credit { 
+    font-size: 10px;
+}
+
 
 main h1 {
 
     text-align: center;
-    font-family: var(--font1);
+    font-family: var(--font-tittle-2);
     font-weight: lighter;
     color: black;
     font-size: 32px;
-    margin: 50px 0px;
-    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.295);
+    margin: 50px -16px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.37);
+    background-image: linear-gradient(to right, var(--cor3), transparent);
+
 }
+
+p {
+
+    text-align: justify;
+    text-indent: 5px;
+    font: 1em var(--font-p-2);
+    padding: 10px 0px;
+    line-height: 2em;
+    margin: 10px 0px;
+    letter-spacing: 0.1em;
+    font-weight: 300;
+    
+}
+
+
+h2 {
+    font-size: 18px;
+    text-align: center;
+    padding: 2px;
+    margin-top: 10px;
+    margin-bottom: 1em;
+    font-weight: 200;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.212);
+ }
 
 .logo2 { 
     box-shadow: 0px 0px 0px white;
+    
 }
 
 img { 
     box-shadow: 1px 2px 6px rgba(0, 0, 0, 0.596)
 }
 
+.set-links { 
+    justify-content: center;
+    margin-top: 10px;
+    gap: 12px;
+}
+
+.set-link { 
+    padding: 12px;
+    text-decoration: none;
+    color: black;
+    
+    border: 1px solid rgba(0, 0, 0, 0.075) ;
+    border-radius: 10px;
+}
+
+.set-link:hover { 
+    background-color: rgba(119, 136, 153, 0.247);
+}
+
+.youtube-list { 
+    justify-content: center;
+    margin-top: 15px;
+    gap: 12px;
+}
+
+.youtube-videos { 
+    margin-top: 50px;
+}
+
+.youtube-links { 
+    padding: 12px;
+    text-decoration: none;
+    color: black;    
+    border: 1px solid rgba(0, 0, 0, 0.075) ;
+    border-radius: 10px;
+ 
+}
+
+.youtube-links:hover { 
+    background-color: rgba(119, 136, 153, 0.247);
+}
 
 .presskit {
     text-align: center;
@@ -154,17 +205,6 @@ img {
     content: '🔗';
 }
 
-p {
-    text-align: justify;
-    text-indent: 5px;
-    font: 1em var(--font2);
-    padding: 10px 0px;
-    line-height: 2em;
-    margin: 10px 0px;
-    letter-spacing: 0.1em;
-    font-weight: 500;
-    
-}
 
 .presskit:hover{
     text-decoration: underline;
@@ -184,7 +224,6 @@ footer p {
    
     text-align: center; 
     color: rgb(0, 0, 0);
-    font-size: 10px;
-    
+    font-size: 10px;    
 }
 

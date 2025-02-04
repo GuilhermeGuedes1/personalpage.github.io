@@ -10,13 +10,20 @@
 </head>
 <body>
     <header>
-        <nav>
-            <a href="index.html" target="_self" rel="internal">Home</a>
-            <a href="#bioSection" target="_self" rel="internal">Bio</a>
-            <a href="#djsets" target="_self" rel="internal">Dj Set</a>
-            <a href="#imprensa" target="_self" rel="internal">Imprensa</a>
-            <a href="#instagram" target="_self" rel="internal">Instagram</a>
-            <a href="#fotos" target="_self" rel="internal">Fotos</a>
+        <nav class="links">
+            <ul>
+                <li><a href="index.html" target="_self" rel="internal">Home</a></li>
+
+                <li><a href="#bioSection" target="_self" rel="internal">Bio</a></li>
+
+                <li><a href="#djsets" target="_self" rel="internal">DJ Set</a></li>
+
+                <li><a href="#imprensa" target="_self" rel="internal">Imprensa</a></li>
+
+                <li><a href="#instagram" target="_self" rel="internal">Instagram</a></li>
+
+                <li><a href="#fotos" target="_self" rel="internal">Fotos</a></li>
+            </ul>
         </nav>
     </header>
 
@@ -25,7 +32,7 @@
             <article>
 
                 <picture>
-                    <img class="logo2" src="images/logo2-pq.png" alt="Logo Chris Roc">
+                    <img class="logo2" src="images/logo2-pq.png" alt="Logo Chris Roc"> 
                 </picture>
 
                 <picture>
@@ -34,7 +41,7 @@
                     <img src="images/foto-oculos.jpg" alt="Foto tocando">
                 </picture>
                 
-                <p class="credito">Foto por <STRONG>Gabriel Santos(GB)</STRONG></p>
+                <p id="photo-credit">Foto por <STRONG>Gabriel Santos(GB)</STRONG></p>
 
                 <p>
                     Desde 2021, Chris Roc tem se apresentado em todo o Brasil e Europa, carregando a cultura Hip Hop do subúrbio do Rio de Janeiro consigo. Ele já tocou nos maiores palcos do Brasil, como o Planeta Atlântida (POA), Festival de Beja (PT), Parque Bondinho Pão de Açúcar (RJ), Manifest Festival (RJ), Faixa Preta (RJ), Festival de Inverno de Garanhuns (PE), Festival de Caruaru (PE) e muitos outros.
@@ -66,30 +73,53 @@
         <section id="djsets">
             <article>
                 <h1>DJ SETS</h1>
-                <div class="soundcloud">
+                <div class="soundcloud-sets">
 
-                    <iframe width="100%" height="450" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1713623391&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/chrisroc" title="CHRIS ROC" target="_blank" style="color: #cccccc; text-decoration: none;">CHRIS ROC</a> · <a href="https://soundcloud.com/chrisroc/rocsession1" title="ROC SESSION #1 | CHR1S ROC_ (Brazilian Trap, Rap)" target="_blank" style="color: #cccccc; text-decoration: none;">ROC SESSION #1 | CHR1S ROC_ (Brazilian Trap, Rap)</a></div>
+                    <iframe width="100%" height="450px" name="frame" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1713623391&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true" allow="auto_play" referrerpolicy="no-referrer">
+                    </iframe>
 
-                    <iframe width="100%" height="450" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1939021424&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/chrisroc" title="CHRIS ROC" target="_blank" style="color: #cccccc; text-decoration: none;">CHRIS ROC</a> · <a href="https://soundcloud.com/chrisroc/so-nao-pode-chorar-mas-se-quiser-pode-vol2" title="Só Não Pode Chorar, Mas Se Quiser Pode. Vol2" target="_blank" style="color: #cccccc; text-decoration: none;">Só Não Pode Chorar, Mas Se Quiser Pode. Vol2</a></div>
+                    <h2>Escute meus sets 🎧🔊</h2>
+                    <ul class="set-links">
 
+                        <li><a class="set-link"  href="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1713623391&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true" target="frame">ROC SESSION #1...</a></li>
+                        
+                        <li><a class="set-link"  href="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1939021424&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true" target="frame">Só não pode chorar...</a></li>
 
-                    <iframe width="100%" height="315" src="https://www.youtube.com/embed/vJ5YfODI284?si=vv4Oq36Zv15Pjuz4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                    
+                        <li><a class="set-link" href="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1562180284&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true" target="frame">Musica de amor um...</a></li>
+                    </ul>
                 </div>
 
+                <div class="youtube-videos">
+                    <h2>Assista meus videos 📹</h2>
+
+                    <iframe width="100%" height="450px" name="youtube-frame" src="https://www.youtube.com/embed/vJ5YfODI284?si=dHKuDmk5ELm4LELL" allow="auto_play" referrerpolicy="no-referrer">
+                    </iframe>
+                    
+                    <ul class="youtube-list">
+
+                        <li><a href="https://www.youtube.com/embed/vJ5YfODI284?si=dHKuDmk5ELm4LELL" class="youtube-links" target="youtube-frame"> Roc Session #3</a></li>
+
+                        <li><a href="https://www.youtube.com/embed/9d3wEkXsD14?si=KNCvZyFmv3ALav4t" class="youtube-links" target="youtube-frame">Rap #4</a></li>
+
+                        <li><a href="https://www.youtube.com/embed/JfZmF-O7u7I?si=gCj_dopzWSwugg9J" class="youtube-links" target="youtube-frame">Falta de mim x De tarde</a></li>
+                    </ul>
+
+                </div>
             </article>
         </section>
 
         <section class="imprensa" id="imprensa">
             <article>
                 <h1>Imprensa</h1>
+
                 <picture>
                     <source media="(max-width:647px )" srcset="images/mateira-redley-pq.png">
 
                     <img src="images/materia-redley.png" alt="Foto breaking Redley">
                 </picture>
+                
                 <p>
-                    Procurado pelo jornalista e comunicador <strong>Matheus Iéti</strong>, DJ Chr1s Roc deu entrevista falando sobre seus bons anos como B-Boy para a matéria em duas etapas ‘Breaking: <a href="https://www.blog.redley.com.br/breaking-conheca-o-movimento/" target="_blank" rel="external"><strong>Conheça o Movimento</strong></a>. - na primeira, surgem quotes, e  na segunda com publicação prevista para 18/02 uma matéria completa traçando o perfil do artista no Blog da <a href="#" rel="external" target="_blank"><strong>Redley</strong></a>.
+                    Procurado pelo jornalista e comunicador <strong>Matheus Iéti</strong>, DJ Chr1s Roc deu entrevista falando sobre seus bons anos como B-Boy para a matéria em duas etapas Breaking: <a href="https://www.blog.redley.com.br/breaking-conheca-o-movimento/" target="_blank" rel="external"><strong>Conheça o Movimento</strong></a>. - na primeira, surgem quotes, e  na segunda com publicação prevista para 18/02 uma matéria completa traçando o perfil do artista no Blog da <a href="#" rel="external" target="_blank"><strong>Redley</strong></a>.
                 </p>
             </article>
         </section>
