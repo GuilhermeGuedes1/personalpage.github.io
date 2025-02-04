@@ -1,20 +1,30 @@
-"Personal page"
+Chris Roc - Landing Page
 
-Link's Project https://guilhermeguedes1.github.io/personalpage.github.io/
+Link do Projeto: https://guilhermeguedes1.github.io/personalpage.github.io/
 
-<img src="images/Personal-Page.png" alt="Imagem do site">
+"Página pessoal criada por mim baseada nos conhecimentos adquiridos nos Módulos 1, 2 e 3 do curso de HTML e CSS de Gustavo Guanabara."
 
->"Personal page created by me based on the knowledge learned in Modules 1 and 2 of the HTML and CSS course by Gustavo Guanabara."
+🔥 Atualizações Recentes
 
-### Adjustments and improvements
+🧭 Melhoria na navegação adicionando links diretos no menu para seções do site.
 
-The project is still under development, and the next updates will focus on the following tasks:
+🎨 Nova cor de fundo para uma ambientação mais envolvente.
 
-- [ ] Embed YouTube videos
-- [ ] SoundCloud music
+🎧 Incorporação de dois sets do SoundCloud para facilitar a audição.
+
+📺 Adição de um vídeo do YouTube diretamente na página.
+
+🖥️ Otimização do código, reduzindo linhas desnecessárias.
+
+🌟 Melhoria na ambientação geral para uma experiência mais fluida.
+
+📌 Próximas Melhorias
+
+O projeto ainda está em desenvolvimento, e as próximas atualizações terão foco nas seguintes tarefas:
+Personalização do site 
+Melhoria do código
 
 
+🎵 Primeiro Projeto
 
-### First Project 
-
- "This is my first project using only HTML and CSS for practice, and over time I will be updating it with the knowledge I’ve learned. I am open to receiving help and tips."
+"Este é meu primeiro projeto utilizando apenas HTML e CSS para prática. Com o tempo, irei atualizá-lo com os conhecimentos adquiridos. Estou aberto a sugestões e dicas!"
